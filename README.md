@@ -1,13 +1,13 @@
-# API search command
+# Laravel conainterized app with API search command
 
 ## Description
 
 API search command with different calls and responses
 
 ## Getting started
+create.env file from .env.example and fill: API_TOKEN and BASE_URL
 
 ```
-create.env file from .env.example and fill: API_TOKEN and BASE_URL
 docker-compose up -d --build
 docker-compose exec php bash
 composer install
